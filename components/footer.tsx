@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { Github, Send, Linkedin, X } from "lucide-react" // Added X icon
+import { Github, Send, Linkedin, X, Twitter } from "lucide-react" // Added X icon
 
 export function Footer() {
   return (
@@ -88,7 +88,7 @@ export function Footer() {
               aria-label="X (formerly Twitter)"
               className="text-purple-200 hover:text-purple-400 transition-colors"
             >
-              <X className="h-5 w-5" /> {/* Added X icon */}
+              <Twitter className="h-5 w-5" /> {/* Added X icon */}
             </Link>
           </div>
         </div>
